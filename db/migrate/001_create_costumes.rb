@@ -16,7 +16,6 @@ class CreateCostumes < ActiveRecord::Migration[4.2]
       t.text :image_url
       t.integer :size
       t.timestamps
-
     end
   end
 end
