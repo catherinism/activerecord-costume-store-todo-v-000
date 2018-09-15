@@ -14,10 +14,10 @@ class CreateCostumes < ActiveRecord::Migration
     create_table :costumes do |t|
       t.string :name
       t.float :price
-      t.text :image_url
-      t.integer :size
-      t.timestamp :created_at
-      binding.pry
+      # t.text :image_url
+      # t.integer :size
+      # t.timestamp :created_at
+      # binding.pry
 
     end
   end
